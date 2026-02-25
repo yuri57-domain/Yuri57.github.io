@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Creative Animations | Free Downloads</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .image-card:hover { transform: translateY(-5px); transition: 0.3s; }
+    </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+    <nav class="p-6 border-b border-gray-800 flex justify-between items-center">
+        <h1 class="text-2xl font-bold tracking-tighter text-blue-400">CREATIVE_MS</h1>
+        <div class="space-x-6">
+            <a href="#gallery" class="hover:text-blue-400">Gallery</a>
+            <a href="#support" class="bg-yellow-500 text-black px-4 py-2 rounded-full font-bold hover:bg-yellow-400">Support My Work</a>
+        </div>
+    </nav>
+
+    <header class="py-20 text-center">
+        <h2 class="text-5xl font-extrabold mb-4">Animated Creations</h2>
+        <p class="text-gray-400 text-lg">High-quality animations. Free to use. Tips appreciated.</p>
+    </header>
+
+    <main id="gallery" class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <div class="bg-gray-800 rounded-xl overflow-hidden image-card border border-gray-700">
+            <img src="your-image-1.gif" alt="Animation 1" class="w-full h-64 object-cover">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold">Neon Pulse Loop</h3>
+                <p class="text-gray-400 text-sm mb-4">Perfect for stream overlays or UI.</p>
+                <div class="flex justify-between items-center">
+                    <a href="your-image-1.gif" download class="bg-blue-600 hover:bg-blue-500 px-4 py-2 rounded text-sm font-bold">Download Free</a>
+                    <span class="text-xs text-gray-500">GIF / 2MB</span>
+                </div>
+            </div>
+        </div>
+
+        </main>
+
+    <section id="support" class="my-20 max-w-2xl mx-auto text-center bg-gray-800 p-10 rounded-3xl border-2 border-dashed border-gray-600">
+        <h3 class="text-3xl font-bold mb-4">Enjoying these materials?</h3>
+        <p class="text-gray-400 mb-6">These are free to download, but if you'd like to support my creativity, you can buy me a coffee!</p>
+        <a href="https://www.buymeacoffee.com/YOUR_USERNAME" target="_blank" class="inline-block bg-yellow-500 text-black px-8 py-3 rounded-full text-xl font-bold hover:scale-105 transition">☕ Support via Tips</a>
+    </section>
+
+    <section class="max-w-4xl mx-auto px-6 mb-20">
+        <h3 class="text-2xl font-bold mb-8 border-b border-gray-800 pb-2">Community Feedback</h3>
+        <div class="giscus">
+            <p class="text-gray-500 italic text-center text-sm">Comments loading from GitHub Discussions...</p>
+        </div>
+        <script src="https://giscus.app/client.js"
+            data-repo="[YOUR_GITHUB_USERNAME]/[YOUR_REPO_NAME]"
+            data-repo-id="[YOUR_REPO_ID]"
+            data-category="Announcements"
+            data-category-id="[YOUR_CATEGORY_ID]"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="top"
+            data-theme="dark"
+            data-lang="en"
+            crossorigin="anonymous"
+            async>
+        </script>
+    </section>
+
+    <footer class="p-10 border-t border-gray-800 text-center text-gray-500 text-sm">
+        <p>© 2026 Creative MS. Need help? <a href="mailto:your-email@example.com" class="text-blue-400 underline">Contact Support</a></p>
+    </footer>
+
+</body>
+              </html>
